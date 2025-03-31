@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o0EJKMIFikb6+C1ngCI6hrTXhndahCiWypriCnxBN5TFLWD/3XtU1btHCORRVFXqpAQuCQ1plsWXW4vz4JNInw==",
+  "dgSpecHash": "VhxOSNbcNowu854vxdeDRD2fs5uJxpGQ5PJ+sQUrHynmkE1JFjmhF+xoShwsWLarHQJ4I5OHD99e1ppBly4s8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sopheng\\Desktop\\Hotel System Clone\\hotelbookingsystem\\HotelBookingSystem.csproj",
+  "projectFilePath": "C:\\Users\\Sopheng\\source\\repos\\hotelbookingsystem\\HotelBookingSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sopheng\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Sopheng\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
