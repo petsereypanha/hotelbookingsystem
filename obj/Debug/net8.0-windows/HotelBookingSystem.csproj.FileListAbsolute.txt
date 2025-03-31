@@ -134,3 +134,4 @@ E:\codeStudy\C#\test\test\HotelBookingSystem\obj\Debug\net8.0-windows\refint\Hot
 E:\codeStudy\C#\test\test\HotelBookingSystem\obj\Debug\net8.0-windows\HotelBookingSystem.pdb
 E:\codeStudy\C#\test\test\HotelBookingSystem\obj\Debug\net8.0-windows\HotelBookingSystem.genruntimeconfig.cache
 E:\codeStudy\C#\test\test\HotelBookingSystem\obj\Debug\net8.0-windows\ref\HotelBookingSystem.dll
+E:\codeStudy\C#\test\test\HotelBookingSystem\obj\Debug\net8.0-windows\HotelBookingSystem.sourcelink.json
