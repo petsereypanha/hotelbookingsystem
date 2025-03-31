@@ -4233,11 +4233,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sopheng\\Desktop\\Hotel System Clone\\hotelbookingsystem\\HotelBookingSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Sopheng\\source\\repos\\hotelbookingsystem\\HotelBookingSystem.csproj",
       "projectName": "HotelBookingSystem",
-      "projectPath": "C:\\Users\\Sopheng\\Desktop\\Hotel System Clone\\hotelbookingsystem\\HotelBookingSystem.csproj",
+      "projectPath": "C:\\Users\\Sopheng\\source\\repos\\hotelbookingsystem\\HotelBookingSystem.csproj",
       "packagesPath": "C:\\Users\\Sopheng\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sopheng\\Desktop\\Hotel System Clone\\hotelbookingsystem\\obj\\",
+      "outputPath": "C:\\Users\\Sopheng\\source\\repos\\hotelbookingsystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sopheng\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -12,7 +12,7 @@ namespace HotelBookingSystem.Services.Singleton
         private DatabaseConnection()
         {
             // Initialize the database connection
-            string connectionString = "YourConnectionStringHere"; // Replace with your actual connection string
+            string connectionString = "Data Source=LAPTOP-Q56J1ABV\\SQLEXPRESS;Initial Catalog=HotelBooking;Integrated Security=True;Encrypt=False;Trust Server Certificate=True"; // Replace with your actual connection string
             connection = new SqlConnection(connectionString);
         }
 
