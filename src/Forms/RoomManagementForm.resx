@@ -1,0 +1,29 @@
+<root>
+      <data name="RoomManagementForm.Title" xml:space="preserve">
+        <value>Room Management</value>
+      </data>
+      <data name="RoomManagementForm.AddRoomButton" xml:space="preserve">
+        <value>Add Room</value>
+      </data>
+      <data name="RoomManagementForm.EditRoomButton" xml:space="preserve">
+        <value>Edit Room</value>
+      </data>
+      <data name="RoomManagementForm.DeleteRoomButton" xml:space="preserve">
+        <value>Delete Room</value>
+      </data>
+      <data name="RoomManagementForm.RoomListLabel" xml:space="preserve">
+        <value>Available Rooms</value>
+      </data>
+      <data name="RoomManagementForm.RoomTypeLabel" xml:space="preserve">
+        <value>Room Type</value>
+      </data>
+      <data name="RoomManagementForm.PriceLabel" xml:space="preserve">
+        <value>Price</value>
+      </data>
+      <data name="RoomManagementForm.SuccessMessage" xml:space="preserve">
+        <value>Room management operation successful!</value>
+      </data>
+      <data name="RoomManagementForm.ErrorMessage" xml:space="preserve">
+        <value>Error occurred during room management operation.</value>
+      </data>
+    </root>

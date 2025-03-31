@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="MainFormTitle" xml:space="preserve">
+    <value>Main Hotel Management System</value>
+  </data>
+  <data name="MainFormWelcomeMessage" xml:space="preserve">
+    <value>Welcome to the Hotel Management System</value>
+  </data>
+  <data name="MainFormButtonBooking" xml:space="preserve">
+    <value>Booking</value>
+  </data>
+  <data name="MainFormButtonCustomer" xml:space="preserve">
+    <value>Customer Management</value>
+  </data>
+  <data name="MainFormButtonRoomManagement" xml:space="preserve">
+    <value>Room Management</value>
+  </data>
+  <data name="MainFormButtonReports" xml:space="preserve">
+    <value>Generate Reports</value>
+  </data>
+</root>

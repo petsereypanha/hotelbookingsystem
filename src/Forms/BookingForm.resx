@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="BookingFormTitle" xml:space="preserve">
+    <value>Booking Form</value>
+  </data>
+  <data name="BookingFormDescription" xml:space="preserve">
+    <value>This form allows users to book a room.</value>
+  </data>
+  <data name="SubmitButtonText" xml:space="preserve">
+    <value>Submit Booking</value>
+  </data>
+  <data name="CancelButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="BookingDateLabel" xml:space="preserve">
+    <value>Booking Date:</value>
+  </data>
+  <data name="CustomerNameLabel" xml:space="preserve">
+    <value>Customer Name:</value>
+  </data>
+  <data name="RoomTypeLabel" xml:space="preserve">
+    <value>Room Type:</value>
+  </data>
+</root>

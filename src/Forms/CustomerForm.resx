@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="CustomerFormTitle" xml:space="preserve">
+    <value>Customer Management</value>
+  </data>
+  <data name="AddButton" xml:space="preserve">
+    <value>Add Customer</value>
+  </data>
+  <data name="EditButton" xml:space="preserve">
+    <value>Edit Customer</value>
+  </data>
+  <data name="DeleteButton" xml:space="preserve">
+    <value>Delete Customer</value>
+  </data>
+  <data name="CustomerNameLabel" xml:space="preserve">
+    <value>Customer Name:</value>
+  </data>
+  <data name="ContactInfoLabel" xml:space="preserve">
+    <value>Contact Information:</value>
+  </data>
+  <data name="CustomerListLabel" xml:space="preserve">
+    <value>Customer List:</value>
+  </data>
+</root>

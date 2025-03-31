@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="ReportTitle" xml:space="preserve">
+    <value>Hotel Management System Report</value>
+  </data>
+  <data name="ReportDate" xml:space="preserve">
+    <value>Date: {0}</value>
+  </data>
+  <data name="NoDataMessage" xml:space="preserve">
+    <value>No data available for the selected criteria.</value>
+  </data>
+  <data name="GenerateReportButton" xml:space="preserve">
+    <value>Generate Report</value>
+  </data>
+  <data name="ExportButton" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="CloseButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+</root>
