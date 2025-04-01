@@ -4,5 +4,10 @@
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FForms_002FMainForm/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FForms_002FReportForm/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FForms_002FRoomManagementForm/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FHomeForm/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FUserControl1/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FUserControlCustomer/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FUserControlDashboard/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FUserControlHistory/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/Initialized/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/ShowOnlyErrors/@EntryValue">False</s:Boolean></wpf:ResourceDictionary>
