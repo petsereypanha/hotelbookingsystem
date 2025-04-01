@@ -1,5 +1,4 @@
 using System;
-using System.Data.SqlClient;
 using Microsoft.Data.SqlClient;
 
 namespace HotelBookingSystem.Services.Singleton
@@ -11,32 +10,35 @@ namespace HotelBookingSystem.Services.Singleton
 
         private DatabaseConnection()
         {
-            // Initialize the database connection
-            string connectionString = "YourConnectionStringHere"; // Replace with your actual connection string
+            // Updated database name to match Docker setup
+            string connectionString = "Server=localhost,1433;Database=master;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;ConnectRetryCount=5;ConnectRetryInterval=10;Connection Timeout=60";
             connection = new SqlConnection(connectionString);
         }
 
         public static DatabaseConnection Instance
         {
-            get
-            {
-                return instance.Value;
-            }
+            get { return instance.Value; }
         }
 
         public SqlConnection Connection
         {
-            get
-            {
-                return connection;
-            }
+            get { return connection; }
         }
 
-        public void OpenConnection()
+        public bool OpenConnection()
         {
-            if (connection.State == System.Data.ConnectionState.Closed)
+            try
             {
-                connection.Open();
+                if (connection.State == System.Data.ConnectionState.Closed)
+                {
+                    connection.Open();
+                }
+                return true;
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine($"SQL Error: {ex.Number} - {ex.Message}");
+                return false;
             }
         }
 

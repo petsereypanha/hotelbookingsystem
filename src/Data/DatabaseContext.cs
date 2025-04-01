@@ -30,7 +30,12 @@ using Microsoft.EntityFrameworkCore;
                     {
                         if (!optionsBuilder.IsConfigured)
                         {
-                            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=HotelBookingDB;Trusted_Connection=True;");
+                             string connectionString = "Server=localhost,1433;Database=master;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;Connection Timeout=30";
+                            optionsBuilder.UseSqlServer(connectionString, sqlOptions =>
+                                sqlOptions.EnableRetryOnFailure(
+                                    maxRetryCount: 5,
+                                    maxRetryDelay: TimeSpan.FromSeconds(10),
+                                    errorNumbersToAdd: null));
                         }
                     }
             

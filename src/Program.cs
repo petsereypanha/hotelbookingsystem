@@ -6,11 +6,16 @@ namespace HotelBookingSystem
 {
     static class Program
     {
+        public static IServiceProvider ServiceProvider { get; private set; }
+        
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            
+            ServiceProvider = Startup.ConfigureServices();
+            
             Application.Run(new MainForm());
         }
     }
