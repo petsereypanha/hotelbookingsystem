@@ -11,14 +11,28 @@
   <!-- If you need EF Core, use a stable version -->
 
 <ItemGroup>
-  <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+  <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
   <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
   <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.3" />
   <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.3" />
 </ItemGroup>
 
 <ItemGroup>
-  <Folder Include="src\Forms\" />
+  <Compile Update="src\Forms\HomeForm.cs">
+    <SubType>Form</SubType>
+  </Compile>
+  <Compile Update="src\Forms\UserControl1.cs">
+    <SubType>UserControl</SubType>
+  </Compile>
+  <Compile Update="src\Forms\UserControlCustomer.cs">
+    <SubType>UserControl</SubType>
+  </Compile>
+  <Compile Update="src\Forms\UserControlDashboard.cs">
+    <SubType>UserControl</SubType>
+  </Compile>
+  <Compile Update="src\Forms\UserControlHistory.cs">
+    <SubType>UserControl</SubType>
+  </Compile>
 </ItemGroup>
 
 </Project>

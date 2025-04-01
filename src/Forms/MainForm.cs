@@ -1,4 +1,4 @@
-using System;
+﻿using System;
         using System.Windows.Forms;
         using HotelBookingSystem.Data;
 
@@ -12,14 +12,9 @@ using System;
                 {
                     InitializeComponent();
                     _context = new DatabaseContext();
+                    
                 }
-        
-                private void bookingToolStripMenuItem_Click(object sender, EventArgs e)
-                {
-                    var bookingForm = new BookingForm(_context);
-                    bookingForm.ShowDialog();
-                }
-        
+                
                 private void customerToolStripMenuItem_Click(object sender, EventArgs e)
                 {
                     var customerForm = new CustomerForm(_context);

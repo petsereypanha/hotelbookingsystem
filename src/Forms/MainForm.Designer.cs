@@ -1,4 +1,4 @@
-using System;
+﻿using System;
             using System.ComponentModel;
             using System.Drawing;
             using System.Windows.Forms;
@@ -40,14 +40,6 @@ using System;
                         this.menuStrip.Size = new System.Drawing.Size(800, 24);
                         this.menuStrip.TabIndex = 0;
                         this.menuStrip.Text = "menuStrip";
-                        // 
-                        // bookingToolStripMenuItem
-                        // 
-                        this.bookingToolStripMenuItem.Name = "bookingToolStripMenuItem";
-                        this.bookingToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
-                        this.bookingToolStripMenuItem.Text = "Booking";
-                        this.bookingToolStripMenuItem.Click += new System.EventHandler(this.bookingToolStripMenuItem_Click);
-                        // 
                         // customerToolStripMenuItem
                         // 
                         this.customerToolStripMenuItem.Name = "customerToolStripMenuItem";

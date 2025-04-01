@@ -1,4 +1,6 @@
-﻿namespace HotelBookingSystem
+﻿using HotelBookingSystem.Data;
+
+namespace HotelBookingSystem.Forms
 {
     partial class HomeForm
     {
@@ -35,11 +37,13 @@
             btnHistory = new Button();
             btnRoomBook = new Button();
             userControlDashboard1 = new UserControlDashboard();
-            userControl11 = new UserControl1();
+            userControl11 = new UserControl1(new DatabaseContext());
             userControlHistory1 = new UserControlHistory();
             userControlCustomer1 = new UserControlCustomer();
             panel1.SuspendLayout();
             SuspendLayout();
+            // In constructor or InitializeComponent
+            this.Load += HomeForm_Load;
             // 
             // panel1
             // 

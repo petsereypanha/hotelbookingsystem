@@ -11,7 +11,6 @@ using System;
                         private readonly BookingRepository _bookingRepository;
                         private readonly CustomerRepository _customerRepository;
                         private readonly RoomRepository _roomRepository;
-                
                         public BookingFacade(BookingRepository bookingRepository, CustomerRepository customerRepository, RoomRepository roomRepository)
                         {
                             _bookingRepository = bookingRepository;

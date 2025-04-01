@@ -9,6 +9,7 @@ CREATE TABLE Customers (
 CREATE TABLE Rooms (
     RoomId INT PRIMARY KEY IDENTITY(1,1),
     RoomType NVARCHAR(50) NOT NULL,
+    BedCount INT NOT NULL DEFAULT 1,
     Price DECIMAL(10, 2) NOT NULL,
     AvailabilityStatus BIT NOT NULL
 );

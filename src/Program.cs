@@ -6,7 +6,8 @@ namespace HotelBookingSystem
 {
     static class Program
     {
-        public static IServiceProvider ServiceProvider { get; private set; }
+        public static IServiceProvider ServiceProvider { get; private set; } = null!;
+
         
         [STAThread]
         static void Main()
@@ -15,8 +16,7 @@ namespace HotelBookingSystem
             Application.SetCompatibleTextRenderingDefault(false);
             
             ServiceProvider = Startup.ConfigureServices();
-            
-            Application.Run(new MainForm());
+            Application.Run(new HomeForm());
         }
     }
 }
