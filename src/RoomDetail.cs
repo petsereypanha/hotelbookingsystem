@@ -7,20 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using HotelBookingSystem.Services.Facade;
 
-
-namespace HotelBookingSystem
+namespace HotelBookingSystem.src
 {
-    public partial class UserControl1 : UserControl
+    public partial class RoomDetail : UserControl
     {
-        BookingFacade bookingFacade;
-        public UserControl1()
+        public RoomDetail()
         {
             InitializeComponent();
-
-            bookingFacade.GetAvailableRooms();
         }
-        
     }
 }

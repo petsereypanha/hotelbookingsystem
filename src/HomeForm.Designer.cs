@@ -38,12 +38,14 @@
             userControl11 = new UserControl1();
             userControlHistory1 = new UserControlHistory();
             userControlCustomer1 = new UserControlCustomer();
+            button1 = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.Silver;
+            panel1.Controls.Add(button1);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(btnCustomer);
             panel1.Controls.Add(btnDashboard);
@@ -138,6 +140,16 @@
             userControlCustomer1.Size = new Size(1197, 682);
             userControlCustomer1.TabIndex = 4;
             // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI", 15F);
+            button1.Location = new Point(3, 367);
+            button1.Name = "button1";
+            button1.Size = new Size(249, 62);
+            button1.TabIndex = 5;
+            button1.Text = "Room Detail";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // HomeForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -167,5 +179,6 @@
         private UserControl1 userControl11;
         private UserControlHistory userControlHistory1;
         private UserControlCustomer userControlCustomer1;
+        private Button button1;
     }
 }

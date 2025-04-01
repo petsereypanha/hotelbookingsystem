@@ -38,10 +38,6 @@
             button2 = new Button();
             button1 = new Button();
             textBox1 = new TextBox();
-            checkBox3 = new CheckBox();
-            checkBox2 = new CheckBox();
-            checkBox1 = new CheckBox();
-            label4 = new Label();
             dateTimePicker2 = new DateTimePicker();
             label3 = new Label();
             label2 = new Label();
@@ -53,6 +49,8 @@
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
             label10 = new Label();
+            label4 = new Label();
+            comboBox3 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dgvHotelList).BeginInit();
             SuspendLayout();
             // 
@@ -155,49 +153,6 @@
             textBox1.Size = new Size(153, 23);
             textBox1.TabIndex = 35;
             // 
-            // checkBox3
-            // 
-            checkBox3.AutoSize = true;
-            checkBox3.Font = new Font("Segoe UI", 12F);
-            checkBox3.Location = new Point(897, 324);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(122, 25);
-            checkBox3.TabIndex = 34;
-            checkBox3.Text = "Gym and Spa";
-            checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            checkBox2.AutoSize = true;
-            checkBox2.Font = new Font("Segoe UI", 12F);
-            checkBox2.Location = new Point(1033, 324);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(102, 25);
-            checkBox2.TabIndex = 33;
-            checkBox2.Text = "Bar Access";
-            checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.Font = new Font("Segoe UI", 12F);
-            checkBox1.Location = new Point(798, 324);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(93, 25);
-            checkBox1.TabIndex = 32;
-            checkBox1.Text = "Breakfast";
-            checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 12F);
-            label4.Location = new Point(646, 320);
-            label4.Name = "label4";
-            label4.Size = new Size(133, 21);
-            label4.TabIndex = 31;
-            label4.Text = "Additional Option";
-            // 
             // dateTimePicker2
             // 
             dateTimePicker2.Location = new Point(944, 169);
@@ -231,9 +186,9 @@
             label1.Font = new Font("Segoe UI", 12F);
             label1.Location = new Point(646, 225);
             label1.Name = "label1";
-            label1.Size = new Size(96, 21);
+            label1.Size = new Size(124, 21);
             label1.TabIndex = 27;
-            label1.Text = "Guest Name";
+            label1.Text = "Customer Name";
             // 
             // dateTimePicker1
             // 
@@ -290,10 +245,32 @@
             label10.TabIndex = 50;
             label10.Text = "Booking Room...";
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 12F);
+            label4.Location = new Point(646, 325);
+            label4.Name = "label4";
+            label4.Size = new Size(116, 21);
+            label4.TabIndex = 51;
+            label4.Text = "Payment Status";
+            // 
+            // comboBox3
+            // 
+            comboBox3.Font = new Font("Segoe UI", 12F);
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Items.AddRange(new object[] { "Pending", "Paid" });
+            comboBox3.Location = new Point(775, 325);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(136, 29);
+            comboBox3.TabIndex = 53;
+            // 
             // UserControl1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(comboBox3);
+            Controls.Add(label4);
             Controls.Add(label10);
             Controls.Add(dgvHotelList);
             Controls.Add(label9);
@@ -306,10 +283,6 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox1);
-            Controls.Add(checkBox3);
-            Controls.Add(checkBox2);
-            Controls.Add(checkBox1);
-            Controls.Add(label4);
             Controls.Add(dateTimePicker2);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -334,10 +307,6 @@
         private Button button2;
         private Button button1;
         private TextBox textBox1;
-        private CheckBox checkBox3;
-        private CheckBox checkBox2;
-        private CheckBox checkBox1;
-        private Label label4;
         private DateTimePicker dateTimePicker2;
         private Label label3;
         private Label label2;
@@ -349,5 +318,7 @@
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
         private Label label10;
+        private Label label4;
+        private ComboBox comboBox3;
     }
 }

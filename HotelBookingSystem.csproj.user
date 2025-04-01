@@ -20,6 +20,9 @@
     <Compile Update="src\HomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="src\RoomDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="src\UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
