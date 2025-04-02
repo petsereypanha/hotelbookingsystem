@@ -24,31 +24,6 @@ namespace HotelBookingSystem.Forms
             userControlDashboard1.BringToFront();
         }
         
-        
-
-       
-private void HomeForm_Load(object sender, EventArgs e)
-{
-    var context = Program.ServiceProvider.GetRequiredService<DatabaseContext>();
-
-    // Remove the designer-created control
-    if (userControl11 != null)
-    {
-        Controls.Remove(userControl11);
-        userControl11.Dispose();
-    }
-
-    // Create a new control with database context
-    userControl11 = new UserControl1(context);
-    userControl11.Location = new Point(254, 0);
-    userControl11.Name = "userControl11";
-    userControl11.Size = new Size(1197, 682);
-    userControl11.TabIndex = 2;
-    Controls.Add(userControl11);
-
-    // Set initial view
-    userControlDashboard1.BringToFront();
-}
         private void btnCustomer_Click(object sender, EventArgs e)
         {
             userControlCustomer1.BringToFront();
@@ -67,6 +42,26 @@ private void HomeForm_Load(object sender, EventArgs e)
         private void btnHistory_Click(object sender, EventArgs e)
         {
             userControlHistory1.BringToFront();
+        }
+        
+       private void HomeForm_Load(object sender, EventArgs e)
+        {
+            // Get database context from your service provider
+            var context = Program.ServiceProvider.GetRequiredService<DatabaseContext>();
+            
+            // Remove the designer-created control
+            Controls.Remove(userControl11);
+            userControl11.Dispose();
+            
+            // Create a new one with proper context
+            userControl11 = new UserControl1();
+            userControl11.Location = new Point(254, 0);
+            userControl11.Size = new Size(1197, 682);
+            userControl11.TabIndex = 2;
+            Controls.Add(userControl11);
+            
+            // Set initial view
+            userControlDashboard1.BringToFront();
         }
     }
 }

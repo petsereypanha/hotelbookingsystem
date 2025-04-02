@@ -9,13 +9,12 @@ namespace HotelBookingSystem
         
         private decimal _totalPrice = 0.00M;
 
-        public UserControl1(DatabaseContext context)
+        public UserControl1()
         {
             InitializeComponent();
-            _context = context;
-            SetupEventHandlers();
         }
 
+        
         private void SetupEventHandlers()
         {
             // Load event

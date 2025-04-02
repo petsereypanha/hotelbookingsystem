@@ -7,10 +7,11 @@
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FForms_002FHomeForm/@EntryIndexedValue">True</s:Boolean>
 	
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FForms_002FMainForm/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FForms_002FMainForm/@EntryIndexRemoved">True</s:Boolean>
 	
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FForms_002FReportForm/@EntryIndexedValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FForms_002FRoomManagementForm/@EntryIndexedValue">False</s:Boolean>
-	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FForms_002FUserControl1/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FForms_002FUserControl1/@EntryIndexedValue">True</s:Boolean>
 	
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=HotelBookingSystem_002Fsrc_002FForms_002FUserControlCustomer/@EntryIndexedValue">False</s:Boolean>
 	

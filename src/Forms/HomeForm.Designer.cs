@@ -37,7 +37,7 @@ namespace HotelBookingSystem.Forms
             btnHistory = new Button();
             btnRoomBook = new Button();
             userControlDashboard1 = new UserControlDashboard();
-            userControl11 = new UserControl1(new DatabaseContext());
+            userControl11 = new UserControl1();
             userControlHistory1 = new UserControlHistory();
             userControlCustomer1 = new UserControlCustomer();
             panel1.SuspendLayout();

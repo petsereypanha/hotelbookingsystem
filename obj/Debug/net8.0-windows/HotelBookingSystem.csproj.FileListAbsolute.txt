@@ -147,4 +147,3 @@ E:\codeStudy\C#\test\test\HotelBookingSystem\obj\Debug\net8.0-windows\HotelBooki
 E:\codeStudy\C#\test\test\HotelBookingSystem\obj\Debug\net8.0-windows\HotelBookingSystem.sourcelink.json
 E:\codeStudy\C#\test\test\HotelBookingSystem\obj\Debug\net8.0-windows\HotelBookingSystem.Forms.CustomerForm.resources
 E:\codeStudy\C#\test\test\HotelBookingSystem\obj\Debug\net8.0-windows\HotelBookingSystem.Forms.HomeForm.resources
-E:\codeStudy\C#\test\test\HotelBookingSystem\obj\Debug\net8.0-windows\HotelBookingSystem.Forms.MainForm.resources
