@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             dgvHotelList = new DataGridView();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
             label1 = new Label();
             btnAddRoom = new Button();
             btnUpdateRoom = new Button();
@@ -44,35 +41,21 @@
             cbRoomType = new ComboBox();
             label5 = new Label();
             cbIsAvailable = new ComboBox();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dgvHotelList).BeginInit();
             SuspendLayout();
             // 
             // dgvHotelList
             // 
             dgvHotelList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvHotelList.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3 });
+            dgvHotelList.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
             dgvHotelList.Location = new Point(44, 95);
             dgvHotelList.Name = "dgvHotelList";
             dgvHotelList.Size = new Size(592, 436);
             dgvHotelList.TabIndex = 50;
-            // 
-            // Column1
-            // 
-            Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column1.HeaderText = "Room ID";
-            Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column2.HeaderText = "Room Type (Standard/Premium)";
-            Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column3.HeaderText = "Bed Count(1/2)";
-            Column3.Name = "Column3";
             // 
             // label1
             // 
@@ -196,6 +179,30 @@
             cbIsAvailable.Size = new Size(166, 33);
             cbIsAvailable.TabIndex = 67;
             // 
+            // Column1
+            // 
+            Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Column1.HeaderText = "Room ID";
+            Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Column2.HeaderText = "Room Type";
+            Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Column3.HeaderText = "Price";
+            Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            Column4.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Column4.HeaderText = "AvailabilityStatus";
+            Column4.Name = "Column4";
+            // 
             // RoomDetail
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -223,9 +230,6 @@
         #endregion
 
         private DataGridView dgvHotelList;
-        private DataGridViewTextBoxColumn Column1;
-        private DataGridViewTextBoxColumn Column2;
-        private DataGridViewTextBoxColumn Column3;
         private Label label1;
         private Button btnAddRoom;
         private Button btnUpdateRoom;
@@ -238,5 +242,9 @@
         private ComboBox cbRoomType;
         private Label label5;
         private ComboBox cbIsAvailable;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
     }
 }

@@ -45,12 +45,12 @@
             dateTimePicker1 = new DateTimePicker();
             comboBox1 = new ComboBox();
             dgvHotelList = new DataGridView();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
             label10 = new Label();
             label4 = new Label();
             comboBox3 = new ComboBox();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dgvHotelList).BeginInit();
             SuspendLayout();
             // 
@@ -216,24 +216,6 @@
             dgvHotelList.Size = new Size(592, 436);
             dgvHotelList.TabIndex = 49;
             // 
-            // Column1
-            // 
-            Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column1.HeaderText = "Room ID";
-            Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column2.HeaderText = "Room Type (Standard/Premium)";
-            Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column3.HeaderText = "Bed Count(1/2)";
-            Column3.Name = "Column3";
-            // 
             // label10
             // 
             label10.AutoSize = true;
@@ -264,6 +246,24 @@
             comboBox3.Name = "comboBox3";
             comboBox3.Size = new Size(136, 29);
             comboBox3.TabIndex = 53;
+            // 
+            // Column1
+            // 
+            Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Column1.HeaderText = "Room ID";
+            Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Column2.HeaderText = "Room Type";
+            Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Column3.HeaderText = "Price";
+            Column3.Name = "Column3";
             // 
             // UserControl1
             // 
@@ -314,11 +314,11 @@
         private DateTimePicker dateTimePicker1;
         private ComboBox comboBox1;
         private DataGridView dgvHotelList;
-        private DataGridViewTextBoxColumn Column1;
-        private DataGridViewTextBoxColumn Column2;
-        private DataGridViewTextBoxColumn Column3;
         private Label label10;
         private Label label4;
         private ComboBox comboBox3;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
     }
 }

@@ -14,12 +14,11 @@ namespace HotelBookingSystem
 {
     public partial class UserControl1 : UserControl
     {
-        BookingFacade bookingFacade;
         public UserControl1()
         {
             InitializeComponent();
 
-            bookingFacade.GetAvailableRooms();
+            
         }
         
     }

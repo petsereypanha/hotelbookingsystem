@@ -36,7 +36,10 @@
             Column5 = new DataGridViewTextBoxColumn();
             Column6 = new DataGridViewTextBoxColumn();
             Column8 = new DataGridViewTextBoxColumn();
-            Column7 = new DataGridViewTextBoxColumn();
+            label2 = new Label();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvBookingHistory).BeginInit();
             SuspendLayout();
             // 
@@ -54,62 +57,102 @@
             // dgvBookingHistory
             // 
             dgvBookingHistory.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvBookingHistory.Columns.AddRange(new DataGridViewColumn[] { Column2, Column3, Column4, Column5, Column6, Column8, Column7 });
-            dgvBookingHistory.Location = new Point(16, 95);
+            dgvBookingHistory.Columns.AddRange(new DataGridViewColumn[] { Column2, Column3, Column4, Column5, Column6, Column8 });
+            dgvBookingHistory.Location = new Point(16, 143);
             dgvBookingHistory.Name = "dgvBookingHistory";
-            dgvBookingHistory.Size = new Size(1165, 557);
+            dgvBookingHistory.Size = new Size(1165, 509);
             dgvBookingHistory.TabIndex = 21;
             // 
             // Column2
             // 
             Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column2.HeaderText = "Room No";
+            Column2.HeaderText = "Booking ID";
             Column2.Name = "Column2";
             // 
             // Column3
             // 
             Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column3.HeaderText = "Room Type";
+            Column3.HeaderText = "Customer";
             Column3.Name = "Column3";
             // 
             // Column4
             // 
             Column4.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column4.HeaderText = "Bed Count";
+            Column4.HeaderText = "Room ID";
             Column4.Name = "Column4";
             // 
             // Column5
             // 
             Column5.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column5.HeaderText = "Is Available";
+            Column5.HeaderText = "Start Date";
             Column5.Name = "Column5";
             // 
             // Column6
             // 
             Column6.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column6.HeaderText = "Customer Name";
+            Column6.HeaderText = "End Date";
             Column6.Name = "Column6";
             // 
             // Column8
             // 
             Column8.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column8.HeaderText = "Added-option (1/2/3)";
+            Column8.HeaderText = "Payment Status";
             Column8.Name = "Column8";
             // 
-            // Column7
+            // label2
             // 
-            Column7.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column7.HeaderText = "Price";
-            Column7.Name = "Column7";
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 13F);
+            label2.Location = new Point(660, 83);
+            label2.Name = "label2";
+            label2.Size = new Size(69, 25);
+            label2.TabIndex = 23;
+            label2.Text = "Sort By";
+            // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI", 11F);
+            button1.Location = new Point(757, 74);
+            button1.Name = "button1";
+            button1.Size = new Size(131, 43);
+            button1.TabIndex = 24;
+            button1.Text = "Date";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI", 11F);
+            button2.Location = new Point(894, 74);
+            button2.Name = "button2";
+            button2.Size = new Size(171, 43);
+            button2.TabIndex = 25;
+            button2.Text = "Payment Status";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Font = new Font("Segoe UI", 11F);
+            button3.Location = new Point(1071, 74);
+            button3.Name = "button3";
+            button3.Size = new Size(108, 43);
+            button3.TabIndex = 26;
+            button3.Text = "Reset";
+            button3.UseVisualStyleBackColor = true;
             // 
             // UserControlHistory
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(dgvBookingHistory);
             Name = "UserControlHistory";
             Size = new Size(1197, 682);
+            Load += UserControlHistory_Load;
             ((System.ComponentModel.ISupportInitialize)dgvBookingHistory).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -125,6 +168,9 @@
         private DataGridViewTextBoxColumn Column5;
         private DataGridViewTextBoxColumn Column6;
         private DataGridViewTextBoxColumn Column8;
-        private DataGridViewTextBoxColumn Column7;
+        private Label label2;
+        private Button button1;
+        private Button button2;
+        private Button button3;
     }
 }

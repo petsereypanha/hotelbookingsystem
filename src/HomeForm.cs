@@ -18,7 +18,7 @@ namespace HotelBookingSystem
             userControlDashboard1.BringToFront();
         }
 
-       
+
 
         private void btnCustomer_Click(object sender, EventArgs e)
         {
@@ -38,6 +38,11 @@ namespace HotelBookingSystem
         private void btnHistory_Click(object sender, EventArgs e)
         {
             userControlHistory1.BringToFront();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            roomDetail1.BringToFront();
         }
     }
 }

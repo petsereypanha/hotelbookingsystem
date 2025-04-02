@@ -43,6 +43,7 @@
             panel2 = new Panel();
             label3 = new Label();
             label4 = new Label();
+            label11 = new Label();
             panel4.SuspendLayout();
             panel5.SuspendLayout();
             panel1.SuspendLayout();
@@ -200,10 +201,22 @@
             label4.TabIndex = 0;
             label4.Text = "Total Booked Room";
             // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI Historic", 20F, FontStyle.Bold);
+            label11.ForeColor = Color.DarkRed;
+            label11.Location = new Point(47, 28);
+            label11.Name = "label11";
+            label11.Size = new Size(156, 37);
+            label11.TabIndex = 52;
+            label11.Text = "Dashboard";
+            // 
             // UserControlDashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(label11);
             Controls.Add(panel2);
             Controls.Add(panel5);
             Controls.Add(panel1);
@@ -222,6 +235,7 @@
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -241,5 +255,6 @@
         private Panel panel2;
         private Label label3;
         private Label label4;
+        private Label label11;
     }
 }
