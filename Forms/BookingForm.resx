@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="BookingLabel" xml:space="preserve">
+    <value>Booking Details</value>
+  </data>
+  <data name="CustomerLabel" xml:space="preserve">
+    <value>Customer:</value>
+  </data>
+  <data name="RoomLabel" xml:space="preserve">
+    <value>Room:</value>
+  </data>
+  <data name="StartDateLabel" xml:space="preserve">
+    <value>Start Date:</value>
+  </data>
+  <data name="EndDateLabel" xml:space="preserve">
+    <value>End Date:</value>
+  </data>
+  <data name="PaymentStatusLabel" xml:space="preserve">
+    <value>Payment Status:</value>
+  </data>
+  <data name="TotalLabel" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="BookButton" xml:space="preserve">
+    <value>Book Now</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+</root>

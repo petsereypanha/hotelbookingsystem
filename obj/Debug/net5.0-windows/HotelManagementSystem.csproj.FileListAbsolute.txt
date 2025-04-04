@@ -1,0 +1,10 @@
+E:\codeStudy\C#\test\new\HotelManagementSystem\HotelManagementSystem\obj\Debug\net5.0-windows\HotelManagementSystem.csproj.AssemblyReference.cache
+E:\codeStudy\C#\test\new\HotelManagementSystem\HotelManagementSystem\obj\Debug\net5.0-windows\HotelManagementSystem.Forms.BookingForm.resources
+E:\codeStudy\C#\test\new\HotelManagementSystem\HotelManagementSystem\obj\Debug\net5.0-windows\HotelManagementSystem.Forms.CustomerForm.resources
+E:\codeStudy\C#\test\new\HotelManagementSystem\HotelManagementSystem\obj\Debug\net5.0-windows\HotelManagementSystem.Forms.MainForm.resources
+E:\codeStudy\C#\test\new\HotelManagementSystem\HotelManagementSystem\obj\Debug\net5.0-windows\HotelManagementSystem.Forms.RoomForm.resources
+E:\codeStudy\C#\test\new\HotelManagementSystem\HotelManagementSystem\obj\Debug\net5.0-windows\HotelManagementSystem.csproj.GenerateResource.cache
+E:\codeStudy\C#\test\new\HotelManagementSystem\HotelManagementSystem\obj\Debug\net5.0-windows\HotelManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\codeStudy\C#\test\new\HotelManagementSystem\HotelManagementSystem\obj\Debug\net5.0-windows\HotelManagementSystem.AssemblyInfoInputs.cache
+E:\codeStudy\C#\test\new\HotelManagementSystem\HotelManagementSystem\obj\Debug\net5.0-windows\HotelManagementSystem.AssemblyInfo.cs
+E:\codeStudy\C#\test\new\HotelManagementSystem\HotelManagementSystem\obj\Debug\net5.0-windows\HotelManagementSystem.csproj.CoreCompileInputs.cache
